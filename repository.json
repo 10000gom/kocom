@@ -1,5 +1,5 @@
 {
-	"name": "Home Assistant Add-on: Kocom",
-	"url": "https://github.com/kyet/kocom.py",
-	"maintainer": "kyet <kyet@me.com>"
+	"name": "HA Add-on: Kocom Room3",
+	"url": "https://github.com/10000gom/kocom.py",
+	"maintainer": "10000gom <10000gom@gmail.com>"
 }

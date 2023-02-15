@@ -1,8 +1,8 @@
 {
-  "name": "Kocom Wallpad with RS485",
+  "name": "Kocom Room2 with RS485",
   "version": "2023.02.11",
   "slug": "kocom_py",
-  "description": "Kocom Room3 for HA(Local Addon)",
+  "description": "Kocom Room2 for HA(Local Addon)",
   "arch": [
     "armhf",
     "armv7",
@@ -18,11 +18,11 @@
     "share:rw"
   ],
   "options": {
-    "addons/r3/kocom.conf 설정파일": true,
-    "addons/r3/kocom.py 실행파일": true
+    "addons/room2/kocom.conf 설정파일": true,
+    "addons/room2/kocom.py 실행파일": true
   },
   "schema": {
-    "addons/r3/kocom.conf 설정파일": "bool",
-    "addons/r3/kocom.py 실행파일": "bool"
+    "addons/room2/kocom.conf 설정파일": "bool",
+    "addons/room2/kocom.py 실행파일": "bool"
   }
 }

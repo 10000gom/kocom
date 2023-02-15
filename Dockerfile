@@ -9,7 +9,7 @@ COPY run.sh kocom.conf kocom.py /
 RUN python3 -m pip install pyserial
 RUN python3 -m pip install paho-mqtt
 
-WORKDIR /share
+WORKDIR /addons
 
 RUN chmod a+x /run.sh
 

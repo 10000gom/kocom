@@ -1,6 +1,6 @@
 #!/bin/sh
 
-SHARE_DIR=/addons/room3
+SHARE_DIR=/addons/room2
 
 mkdir -p $SHARE_DIR
 if [ ! -f $SHARE_DIR/kocom.conf ]; then

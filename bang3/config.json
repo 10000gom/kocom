@@ -1,8 +1,8 @@
 {
-  "name": "Kocom Room2 with RS485",
+  "name": "Kocom Room3 with RS485",
   "version": "2023.02.11",
-  "slug": "kocom_py",
-  "description": "Kocom Room2 for HA(Local Addon)",
+  "slug": "kocom_Room3",
+  "description": "Kocom Room3 for HA(Local Addon)",
   "arch": [
     "armhf",
     "armv7",
@@ -10,19 +10,19 @@
     "amd64",
     "i386"
   ],
-  "url": "https://github.com/10000gom/kocom.py",
+  "url": "https://github.com/10000gom/kocom",
   "startup": "application",
   "boot": "auto",
   "uart": true,
   "map": [
-    "share:rw"
+    "addons/room3/:rw"
   ],
   "options": {
-    "addons/room2/kocom.conf 설정파일": true,
-    "addons/room2/kocom.py 실행파일": true
+    "addons/room3/kocom.conf 설정파일": true,
+    "addons/room3/kocom.py 실행파일": true
   },
   "schema": {
-    "addons/room2/kocom.conf 설정파일": "bool",
-    "addons/room2/kocom.py 실행파일": "bool"
+    "addons/room3/kocom.conf 설정파일": "bool",
+    "addons/room3/kocom.py 실행파일": "bool"
   }
 }
